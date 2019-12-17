@@ -4,5 +4,5 @@
 
 ```
 $ docker build -t zip-lambda-layer .
-$ docker run -v "${PWD}":/tmp zip-lambda-layer
+$ docker run -v "${PWD}/dist":/tmp/zip-lambda-layer zip-lambda-layer:latest
 ```

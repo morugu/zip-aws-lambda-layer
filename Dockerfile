@@ -1,6 +1,12 @@
 FROM amazonlinux
 
 RUN yum install zip -y
+RUN mkdir -p /tmp/zip-lambda-layer
 
-CMD mkdir zip-lambda-layer && cd &_ && zip zip-lambda-layer.zip /bin/zip && \
-    zip -j zip-lambda-layer.zip /usr/lib64/libbz2.so.1
+CMD cd /tmp/zip-lambda-layer && \
+    mkdir -p bin && \
+    mkdir -p lib && \
+    cp /bin/zip ./bin && \
+    cp /usr/lib64/libbz2.so.1 ./lib && \
+    zip -r zip-lambda-layer.zip ./* && \
+    rm -rf lib bin
