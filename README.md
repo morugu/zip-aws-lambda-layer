@@ -1,17 +1,17 @@
-# Zip for AWS Lambda as layer
+# UnZip for AWS Lambda as layer
 
-[Zip](http://infozip.sourceforge.net/Zip.html) archive command for AWS Lambda layer.
+[UnZip](http://infozip.sourceforge.net/UnZip.html) archive command for AWS Lambda layer.
 
 ## Getting Started
 
-You can get `zip-lambda-layer.zip` file the following build command via Docker.
+You can get `unzip-lambda-layer.zip` file the following build command via Docker.
 
 ```
-$ docker build -t zip-lambda-layer .
-$ docker run -v "${PWD}/dist":/tmp/zip-lambda-layer zip-lambda-layer:latest
+$ docker build -t unzip-lambda-layer .
+$ docker run -v "${PWD}/dist":/tmp/unzip-lambda-layer unzip-lambda-layer:latest
 ```
 
-Click on Layers and click "Create Layer", upload `zip-lambda-layer.zip`, choose the runtime you need, and other inputs like the following image.
+Click on Layers and click "Create Layer", upload `unzip-lambda-layer.zip`, choose the runtime you need, and other inputs like the following image.
 
 ![Create Layer](CreateLayer.png)
 
