@@ -1,6 +1,6 @@
 # UnZip for AWS Lambda as layer
 
-[UnZip](http://infozip.sourceforge.net/UnZip.html) archive command for AWS Lambda layer.
+[UnZip](http://infozip.sourceforge.net/UnZip.html) archive command for AWS Lambda layer. This is a for of the zip-lambda-layer repo.
 
 ## Getting Started
 
