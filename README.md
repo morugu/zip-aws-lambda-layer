@@ -17,4 +17,4 @@ Click on Layers and click "Create Layer", upload `unzip-lambda-layer.zip`, choos
 
 Click "Add a layer" your lambda function Designer, and add it.
 
-![Add Layer To Function](AddLayerToFunction.png)
+![Add Layer To Function](AddUnzipLayer.png)
