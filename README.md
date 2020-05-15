@@ -13,7 +13,7 @@ $ docker run -v "${PWD}/dist":/tmp/unzip-lambda-layer unzip-lambda-layer:latest
 
 Click on Layers and click "Create Layer", upload `unzip-lambda-layer.zip`, choose the runtime you need, and other inputs like the following image.
 
-![Create Layer](CreateLayer.png)
+![Create Layer](CreateUnzipLayer.png)
 
 Click "Add a layer" your lambda function Designer, and add it.
 
